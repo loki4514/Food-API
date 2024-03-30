@@ -7,6 +7,9 @@ const client = new Client({
     database: process.env.database,
     password: process.env.password,
     port: process.env.db_port,
+    ssl: {
+        rejectUnauthorized: false
+    }
 })
 client.connect()
     .then(() => {
