@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: false }))
 dotenv.config()
 
 app.get("/api",(req,res) => {
-  res.status(200).json({message : "Status ok ready for deployment"})
+  res.status(200).json({message : "Status Ok, Application running successfull"})
 })
 app.use(bodyParser.json({ limit: "30mb", extended: true }))
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))

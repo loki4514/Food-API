@@ -26,11 +26,11 @@ const router = express.Router();
  *                 type: string
  *                 description: The delivery zone.
  *               organization_id:
- *                 type: string
+ *                 type: number
  *                 description: The organization ID.
  *               total_distance:
  *                 type: number
- *                 description: The total distance of delivery in kilometers.
+ *                 description: The total distance of delivery in kilometers only accepts the 1-30 KM.
  *               item_type:
  *                 type: string
  *                 description: The type of item (perishable/non-perishable).
