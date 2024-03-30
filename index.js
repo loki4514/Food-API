@@ -17,7 +17,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:8000'
+        url: `https://${process.env.host}:8000`
       }
     ]
   },
