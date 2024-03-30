@@ -156,8 +156,18 @@ Follow these steps to set up the project and database locally:
    ```
 2. **Testing the Backend:**
    - To test the backend, use Postman, ThunderClient, or any API testing website.
-   - Send a POST request to `http://localhost:8000/api/deliveryprice` with the required parameters.
+   - You can access the Swagger documentation by clicking on the provided link. Once there, navigate to the POST route you want to test. Click on 'Try it out', then input the desired JSON data for the POST   request. After that, click on 'Execute' to send the request and receive the response.
    - Alternatively, you can test using Swagger UI by navigating to `http://localhost:8000/api-docs/`, where you can interactively test the API endpoints.
+   - To create a request in Postman for a POST route:
+   - Open Postman.
+     - Create a new request by clicking on the "New" button in the upper left corner and selecting "Request."
+     - In the request builder, enter the URL of your POST route.
+     - Choose the HTTP method as "POST" from the dropdown menu next to the URL.
+     - Click on the "Body" tab below the URL bar.
+     - Select "raw" from the options below the body tab.
+     - Choose JSON (application/json) as the type of data you want to send.
+     - Enter your JSON request body in the text area.
+     - Click on the "Send" button to execute the request and see the response.
 
 ## License
 
